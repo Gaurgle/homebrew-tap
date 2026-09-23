@@ -3,24 +3,24 @@
 class Pinz < Formula
   desc "Spatial bulletin board in the terminal: post-it notes on a pannable, zoomable board"
   homepage "https://github.com/Gaurgle/pinz"
-  version "0.6.0"
+  version "0.6.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/Gaurgle/pinz/releases/download/v0.6.0/pinz-0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "608e9eae7993fb8f6e9a5edb3691989daedcf3c9ec0c271fd2afb2196cdccbf2"
+      url "https://github.com/Gaurgle/pinz/releases/download/v0.6.1/pinz-0.6.1-aarch64-apple-darwin.tar.gz"
+      sha256 "e980f8f95f1d02eddb90e9be0c379e2ae97307f4f845ccecedbb680d5a305f81"
     end
     on_intel do
-      url "https://github.com/Gaurgle/pinz/releases/download/v0.6.0/pinz-0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5e37a1e0bd2b4b626e2f4d08b8e4fefb72d905dbc12112ae20e916b1c5b4c6d3"
+      url "https://github.com/Gaurgle/pinz/releases/download/v0.6.1/pinz-0.6.1-x86_64-apple-darwin.tar.gz"
+      sha256 "c1054b64075ba4e5750b25cb7744fcfc6a662856dc7c39590a67b942d7493665"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Gaurgle/pinz/releases/download/v0.6.0/pinz-0.6.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "591d8bf3935ab44214cbd384b5ab8eb9b9dc39a2e9decbabb869a4876392f1c5"
+      url "https://github.com/Gaurgle/pinz/releases/download/v0.6.1/pinz-0.6.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7764ffab2e36272496fc393395ee0fff62f292808c98bf8d112878eef957a408"
     end
   end
 
